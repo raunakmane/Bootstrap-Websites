@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(../images/apigee-api-management.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: center bottom;
+    padding-bottom: 20%;
+}
+.submit_card{
+    padding: 10%;
+}
