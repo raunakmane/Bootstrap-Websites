@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+overflow-x:hidden;
+}
+
+/* Navbar Section */
+nav{
+    height: 80px;
+    background:rgba(255, 255, 255, 0);
+    
+}
+/* 
+Header Section */
+.head{
+    background-image: url('../images/download.jpg');
+    height: 90%;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    
+}
+.heading-content{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+.form-header{
+    margin-top: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+
+.button-text{
+    margin-top: 350px;
+    margin-bottom: 8vh;
+    margin-left: 600px;
+    padding: 15px 40px;
+    border-radius: 100px;
+    background-color: royalblue;
+    border: none;
+    transition: all 0.5s;
+
+}
+
+.button-text:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.425);
+    border: none;
+}
+
+.about-section{
+    height: 90vh;
+}
+.about-tab{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.about-image{
+    margin-left: 100px;
+}
+.about-section-header{
+    font-size: 45px;
+}
+.about-button-text{
+    padding: 10px 30px;
+    border-radius: 100px;
+    background-color: royalblue;
+    border: none;
+    transition: all 0.5s;
+
+}
+
+.about-button-text:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.425);
+    border: none;
+}
+.team-info{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.team-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.card{
+    margin:0px 40px
+}
+.card-section{
+    width:20rem;
+
+}
+.card-image{
+    width: 00px;
+    height: 50vh;
+}
+
+
+.form-section{
+    height: 80vh;
+}
+.card-s{
+    border: 1px solid black;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.438);
+    padding: 40px;
+    margin: 10px;
+}
