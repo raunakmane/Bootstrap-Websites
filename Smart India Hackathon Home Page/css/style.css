@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+marquee{
+    text-decoration: none;
+    background-color: #e76325;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.smart{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.para{
+    font-size: 18px;
+}
+.what{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text-section{
+    background-image: linear-gradient(to left bottom,rgba(8, 4, 4, 0.445),rgba(209, 203, 203, 0.623));
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invite{
+    text-align: center;
+    font-size: large;
+}
+.share{
+    text-align: center;
+}
