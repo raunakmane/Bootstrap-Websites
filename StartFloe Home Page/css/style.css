@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+}
+.header_sec{
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+.img{
+    animation-name: mymove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left:-30px;
+    margin-top: -50px;
+}
+@keyframes mymove {
+    from { transform: translate(0, -0px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, -0px); }
+  }
+.get_button{
+    margin-right: 25px; 
+    background-color: rgb(17, 146, 238);
+    border: none;
+    padding: 7px 20px;
+    color: white;
+}
+.free_button{
+    background-color:white ;
+    border: none;
+    padding: 7px 20px;
+    color: rgb(17, 146, 238);
+}
+.card_section{
+    margin-top: 50px;
+}
+.card_1{
+    margin-left: 20%;
+    max-width: 18rem;
+    background-color: rgb(17, 146, 238);
+    transition: all 0.5s;
+}
+
+.card_1:hover{
+    box-shadow: rgb(23, 73, 212) 5px 15px 30px;
+    transform: translateY(-10px);
+}
+.card_2{
+    margin-left: 15%;
+    max-width: 18rem;
+    background-color: rgb(17, 146, 238);
+    transition: all 0.5s;
+}
+
+.card_2:hover{
+    box-shadow: rgb(23, 73, 212) 5px 15px 30px;
+    transform: translateY(-10px);
+}
+.card_3{
+    margin-left: 11%;
+    max-width: 18rem;
+    background-color: rgb(17, 146, 238);
+    transition: all 0.5s;
+}
+
+.card_3:hover{
+    box-shadow: rgb(23, 73, 212) 5px 15px 30px;
+    transform: translateY(-10px);
+}
+.form-section{
+    background-color: white;
+    margin-top: 20px;
+    padding: 100px;
+    height: 60vh;
+}
+
+.form-control:focus{
+    border-color: rgba(0, 0, 255, 0.527);
+    box-shadow: 0 0 0 1px rgba(0, 0, 255, 0.527);
+}
+
+.header-text{
+    color:rgba(0, 0, 255, 0.527);
+}
+
+.img{
+    height:250px;
+    margin:-40px -95px;
+}
+.form-content{
+    margin-top: -80px;
+}
+.send-now{
+    background-color:rgba(0, 214, 252, 0.781) ;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+    margin-top:  10px;
+    border-radius: 25px;
+    transition: all 0.4s;
+    box-shadow: rgba(0, 0, 255, 0.589) 3px 3px  10px;
+
+}
+.send-now:hover{
+    background-color:rgba(0, 72, 206, 0.89);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.send-now:active{
+    transform: translateY(-1px);
+}
