@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+}
+.header_section{
+    background-image:linear-gradient(to right,#17418ace,#12377bd0), url('../images/emile-guillemot-Olo2khVaTmk-unsplash.jpg');
+    padding-bottom: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+}
+.head{
+    margin-top: 5%;
+}
+.heading_content{
+    color: white;
+    margin-right: 20%;
+}
+.heading{
+    font-size: 40px;
+}
+form{
+    background-color: white;
+    padding: 25px;
+    width: 19rem;
+    border-radius: 3%;
+}
+.button{
+    border-radius: 50px;
+    border: white solid 1px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    margin-top: 3%;
+    transition: all 0.4s;
+}
+.button:hover{
+    background-color:#12377bd0 ;
+    transform: translateY(-5px);
+}
+.feature_sec_1{
+    margin-top: 7%;
+    padding-bottom: 10%;
+}
+.features{
+    color: black;
+    margin-top: 6%;
+}
+.button_1{
+    border-radius: 50px;
+    border: none;
+    padding: 5px 25px;
+    background-color:#256be5;
+    box-shadow: rgba(128, 128, 128, 0.459) 5px 5px 50px;
+    color: white;
+    transition: all 0.4s;
+}
+.button_1:hover{
+    background-color:#0342b6d0 ;
+    transform: translateY(-5px);
+}
+.card{
+    text-align: center;
+    width: 80%;
+    height:45vh;
+    box-shadow: darkgray 20px 10px 30px;
+    padding-bottom: 5%;
+}
+.card-img-top{
+    width: 20%;
+    height: 50%;
+}
+.card-text{
+    font-size: 10px;
+}
+.features_1{
+    color: black;
+    margin-top: 2%;
+}
+.feature_img{
+    border-radius: 50% 0px 0px 50%;
+}
+.foot_section{
+    background-image:linear-gradient(to right,rgba(8, 4, 4, 0.404),rgba(32, 6, 6, 0.671)),url('../images/marjanblan-6bXvYyAYVrE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 5% ;
+    padding-top: 5%;
+    color: white;
+}
+.submit_button{
+    padding: 0px 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -15px;
+}
