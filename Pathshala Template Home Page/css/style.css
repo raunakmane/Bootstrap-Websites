@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+}
+.heading_section{
+    background-image: url('../images/martin-adams-_OZCl4XcpRw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50px ;
+    padding-top: 10px;
+}
+.body_section{
+    margin-top: 70px;
+}
+.card{
+    margin-left: 70px;
+}
+.card-header{
+    background-color: RGB(39, 174, 97);
+}
+.card_list{
+    color: rgb(167, 164, 164);
+    margin-left: 15px;
+}
+.foot_section{
+    background-image:linear-gradient(to right,rgba(8, 4, 4, 0.404),rgba(32, 6, 6, 0.671)),url('../images/lukas-blazek-GnvurwJsKaY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-bottom: 50px ;
+    padding-top: 40px;
+    color: white;
+}
+.submit_button{
+    padding: 0px 15px;
+}
+ul{
+    list-style-type: none;
+    margin-left: -15px;
+}
